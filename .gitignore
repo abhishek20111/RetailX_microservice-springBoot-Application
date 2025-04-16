@@ -1,0 +1,87 @@
+# Ignore IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.sublime-workspace
+
+# Ignore compiled and build files
+target/
+build/
+
+# Ignore Maven and Gradle wrapper files
+.mvn/wrapper/
+!**/mvn/wrapper/maven-wrapper.jar
+
+# Ignore Docker-related files
+docker/
+volume-data/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore MySQL runtime files
+volume-data/mysql_keycloak_data/mysql.sock
+
+# Ignore dependencies in frontend (Angular)
+microservices-shop-frontend/node_modules/
+microservices-shop-frontend/dist/
+microservices-shop-frontend/tmp/
+microservices-shop-frontend/out-tsc/
+
+# Ignore logs and temp files
+*.log
+*.lock
+.history/
+.apt_generated
+.classpath
+.project
+.settings/
+.sts4-cache
+
+/apiGateway/.idea
+/apiGateway/.mvn
+/apiGateway/target
+/apiGateway/volume-data
+/apiGateway/mvnw
+/apiGateway/mvnw.cmd
+
+
+
+/inventoryService/.idea
+/inventoryService/.mvn
+/inventoryService/target
+/inventoryService/volume-data
+/inventoryService/mvnw
+/inventoryService/mvnw.cmd
+/inventoryService/docker
+
+/notificationService/.idea
+/notificationService/.mvn
+/notificationService/target
+/notificationService/HELP.md
+/notificationService/volume-data
+/notificationService/mvnw
+/notificationService/mvnw.cmd
+/notificationService/docker
+
+/orderService/.idea
+/orderService/.mvn
+/orderService/target
+/orderService/HELP.md
+/orderService/volume-data
+/orderService/mvnw
+/orderService/mvnw.cmd
+/orderService/mysql
+
+
+/productService/.idea
+/productService/.mvn
+/productService/target
+/productService/HELP.md
+/productService/volume-data
+/productService/mvnw
+/productService/mvnw.cmd
+/productService/data
