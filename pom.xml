@@ -54,4 +54,4 @@
         </plugins>
     </build>
 </project>
-<!--for running mvn spring-boot:build-image -DskipTests -DockerPassword=dckr_pat_o7ylFZJlYfkFXu_aNZ-pdFnkqBw -->
+<!--for running mvn spring-boot:build-image -DskipTests -DockerPassword=<access_token></access_token> -->
